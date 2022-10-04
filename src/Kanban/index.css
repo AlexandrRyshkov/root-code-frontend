@@ -1,0 +1,22 @@
+.kanban-grid {
+    display: flex;
+    grid-column-gap: 8px;
+}
+
+.kanban-grid-column {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 8px;
+    height: 100%;
+    min-width: 200px;
+}
+
+.kanban-grid-card {
+    transition: all .2s ease-in-out;
+}
+
+.kanban-grid-card:hover {
+    transform: scale(1.1);
+}
+
